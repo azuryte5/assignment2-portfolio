@@ -62,3 +62,46 @@ header li {
     background-image: url(../assets/images/hero-banner.jpg);
     height: 270px;
 }
+
+.label {
+    width:15%;
+    border-right: 5px solid var(--firthary-color);
+    margin:0;
+    padding-left: 90px;
+}
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+
+}
+section h2 {
+    color: var(--secondary-color);
+    padding: 30px;
+    width: 20%;
+}
+
+.contact {
+    width: 85%;
+}
+.contact ul {
+    padding: 40px 20px 0px 20px;
+
+    list-style: none;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact li {
+    border-bottom: 2px solid var(--primary-color);
+    padding-right: 10px;
+}
