@@ -5,17 +5,60 @@
 }
 
 :root {
-    --primary-color: ;
+    --primary-color: #20EB8F ;
     --secondary-color:#2132E6 ;
     --tertiary-color:#DBF0F2 ;
     --fourthary-color: ;
     --firthary-color:#F08013 ;
 }
 
-header {
-    background-color: var(--secondary-color);
+body {
+    background-color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
 }
 
-body {
-    background-color: var(--tertiary-color)
+header {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--firthary-color);
+    text-shadow: 0 10px 20px rgba(0, 0 , 0, 0.8);
+    background-color: var(--primary-color) ;
+    width: 25%;
+    margin: 5px 50px 5px 0;
+    text-align: right;
+    padding: 10px 15px 10px 10px;
+    border-radius: 10px 15px;
+    font-style:italic;
+
+}
+
+header nav ul {
+    list-style: none;
+    border-bottom: var(--tertiary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content:flex-start;
+    padding: 30px 15px 15px 10px;
+    width: 800px;
+    font-size: 20px;
+    color: var(--primary-color);   
+}
+
+header li {
+    border-bottom: 5px solid var(--primary-color);
+    padding-right: 20px;
+}
+
+.hero {
+    background-image: url(../assets/images/hero-banner.jpg);
+    height: 270px;
 }
