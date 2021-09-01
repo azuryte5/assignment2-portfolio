@@ -1,6 +1,6 @@
 # assignment2-portfolio
-![Az logo](assets/images/az.jpg)
-<img src="assets/images/az.jpg" width="100">
+![Az logo](assets/images/az.JPG)
+<img src="assets/images/az.JPG" width="100">
 
 Challenge 2 for coding bootcamp 🐺
 ## Unique Comments
