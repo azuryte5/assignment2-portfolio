@@ -30,7 +30,7 @@ header h1 {
     color: var(--border-color);
     text-shadow: 0 5px 20px rgba(0, 0 , 0, 0.8);
     background-color: var(--primary-color) ;
-    width: 25%;
+    width: 30%;
     margin: 5px 50px 5px 0;
     text-align: right;
     padding: 20px 15px 20px 10px;
@@ -235,10 +235,18 @@ header h1:hover::before {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
     
-    .subtitle{
+    header h1 {
+        width: 35%;
+    }
+    
+    .subtitle {
         font-size: smaller;
+        width: 35%;
     }
 
+    .about-text {
+        align-content: center;
+    }   
     .contact ul {
         line-height: 2;
         justify-content: space-around;
@@ -249,28 +257,70 @@ header h1:hover::before {
     }
 }
   /* MEDIA QUERY FOR TABLETS AND SMALLER */
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 892px) {
+
+    header {
+        justify-content: center;
+        margin: 0;
+    }
+ 
+    .subtitle {
+        padding: 10px;
+        width: 40%;
+    }
+
+    .subtitle:hover {
+        padding: 10px;
+    }
+    .about-text {
+        font-size: larger;
+        width:70%;
+    }
+    .builder {
+        flex-direction: column;
+    }
     .applications {
         flex-flow: column wrap;
         align-items: center;
     }
-
-    .subtitle {
-        padding: 10px;
+    .small-project {
+        width:60%
     }
 
-    .about-text {
-        font-size: smaller;
+    .contact ul {
+        align-content: space-around;
     }
-
 }
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {
-    header h1 nav ul {
+    
+    header {
         flex-direction: column;
         align-items: center;
     }
+
+    header h1 {
+        font-size: 30px;
+        padding-right: 30px;
+    }
+    
+    header ul li {
+        flex-direction: column;
+        align-items: center;
+        font-size: 30px ;
+    }
+
+    .about-text {
+        align-content: center;
+    }
+
+    .jumbotron {
+        align-content: center;
+    }
     .builder {
         flex-flow: wrap column;
+    }
+    .label {
+        margin: 10px;
     }
   }
