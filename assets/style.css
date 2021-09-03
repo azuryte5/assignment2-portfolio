@@ -175,6 +175,9 @@ header h1:hover::before {
     color:var(--tertiary-color);
     background-color:var(--secondary-color);
     font-size: 24px;
+    z-index: 999;
+    position: absolute;
+    margin-top: 200px;
 }
 
 .small-project {
@@ -198,6 +201,10 @@ header h1:hover::before {
     font-size: 24px;
     background-color:var(--secondary-color);
     border: 2px solid var(--primary-color);
+    z-index: 999;
+    position: absolute;
+    margin-top: 200px;
+
     }
 /* contact me */
 .contact {
