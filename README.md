@@ -2,10 +2,11 @@
 
 <img src="assets/images/az.JPG" width="100">
 
-Challenge 2 for coding bootcamp 🐺
+Challenge 2 for coding Bootcamp 🐺
 ## Unique Comments
+- My avatar image is an icon adjacent to the tab at top of screen. I did submit a photo of myself but it is on my "Resume" portfolio page. I do not have work studio photos done so I placed a place holder with glasses on instead.
 
-In mock up the project images become links to applications. I was trying to keep the title in the div without interfering with the link hitbox.
+- I kept my small projects images identical as placeholders for future projects. Put am able to code in images.
 
 ## Website
 
