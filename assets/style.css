@@ -189,7 +189,7 @@ header h1:hover::before {
     margin: 10px 0;
     width:46%;
     border: 4px solid var(--secondary-color);
-    background-image:url(/assets/images/screenshot5.png);
+    background-image:url(../assets/images/screenshot5.png);
     background-position: left;
     background-size:cover;
     box-shadow: 10px 5px 20px var(--primary-color);
@@ -198,7 +198,7 @@ header h1:hover::before {
     margin: 10px 0;
     width:46%;
     border: 4px solid var(--secondary-color);
-    background-image:url(/assets/images/password-challenge.png);
+    background-image:url(../assets/images/password-challenge.png);
     background-position: left;
     background-size:cover;
     box-shadow: 10px 5px 20px var(--primary-color);
@@ -207,7 +207,7 @@ header h1:hover::before {
     margin: 10px 0;
     width:46%;
     border: 4px solid var(--secondary-color);
-    background-image:url(/assets/images/screenshot-weather.png);
+    background-image:url(../assets/images/screenshot-weather.png);
     background-position: right;
     background-size:cover;
     box-shadow: 10px 5px 20px var(--primary-color);

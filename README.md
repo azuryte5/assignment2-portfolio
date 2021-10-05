@@ -1,8 +1,8 @@
 # assignment2-portfolio
 
-<img src="assets/images/az.JPG" width="100">
+<img src="/assets/images/az.JPG" width="100">
 
-<img src="assets/images/portolio-screenshot.png" width="500">
+<img src="/assets/images/portolio-screenshot.png" width="500">
 
 Challenge 2 for coding Bootcamp 🐺
 ## Unique Comments
