@@ -2,6 +2,8 @@
 
 <img src="assets/images/az.JPG" width="100">
 
+<img src="assets/images/portolio-screenshot.png" width="500">
+
 Challenge 2 for coding Bootcamp 🐺
 ## Unique Comments
 - My avatar image is an icon adjacent to the tab at top of screen. I did submit a photo of myself but it is on my "Resume" portfolio page. I do not have work studio photos done so I placed a place holder with glasses on instead.
