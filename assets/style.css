@@ -98,7 +98,12 @@ header h1:hover::before {
     font-weight: bold;
     letter-spacing: 2px;
 }
+.profile {
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 30px;
 
+}
 .subtitle:hover {
     border: 4px solid var(--border-color);
     padding:6px 0 10px 96px;
