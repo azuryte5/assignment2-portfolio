@@ -153,8 +153,8 @@ header h1:hover::before {
     flex-grow: 2;
     width:100%;
     border: 4px solid var(--secondary-color);
-    background-image: url(/assets/images/screenshot-nutrivalue.png);
-    background-position:center;
+    background-image: url(../assets/images/screenshot-nutrivalue.png);
+    background-position:top;
     background-repeat: no-repeat;
     background-size: 100%;  
     box-shadow: 10px 5px 20px var(--primary-color);
@@ -199,7 +199,7 @@ header h1:hover::before {
     width:46%;
     border: 4px solid var(--secondary-color);
     background-image:url(../assets/images/password-challenge.png);
-    background-position: left;
+    background-position: top;
     background-size:cover;
     box-shadow: 10px 5px 20px var(--primary-color);
 }
@@ -208,7 +208,7 @@ header h1:hover::before {
     width:46%;
     border: 4px solid var(--secondary-color);
     background-image:url(../assets/images/screenshot-weather.png);
-    background-position: right;
+    background-position: left;
     background-size:cover;
     box-shadow: 10px 5px 20px var(--primary-color);
 }
